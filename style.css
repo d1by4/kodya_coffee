@@ -12,7 +12,7 @@
   --primaryIconColor: #379237;
   --primaryIconColorHover: #54b435;
 
-  --sectionPadding: 6rem 0rem 0rem 6rem;
+  --sectionPadding: 6rem 5rem 0rem 5rem;
   --itemBorderRadius: 0.7rem;
 }
 
@@ -94,14 +94,15 @@
 
 @media screen and (max-width: 640px) {
   #contact {
-    overflow: hidden;
+    padding: 2rem 1rem 0rem 0.5rem; /* Sesuaikan padding untuk layar kecil */
   }
 
-  #form {
-    width: 95%;
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Pastikan elemen ini tetap fleksibel */
   }
 
-  #message {
-    width: 95%;
+  .contact-form {
+    gap: 1rem; /* Atur jarak antar elemen */
   }
 }
