@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light shadow" style="background-color: white">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand me-auto" href="index.html">Kodya Coffee</a>
+          <ul class="navbar-nav">
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end-navbar -->
+
+    <!-- banner -->
+    <section id="banner">
+      <header class="hero-banner">
+        <div class="hero-content">
+          <h1 class="display-3 fw-bold">Bersantai Sambil Menikmati Kodya Coffee</h1>
+          <div class="mt-4">
+            <a href="#about" class="btn btn-outline-light btn-lg">Learn More</a>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- end-banner -->
+
+    <!-- About & Proccess -->
+    <section id="about" style="padding-top: 5rem">
+      <div class="container-fluid">
+        <div class="container" style="border-radius: 30px">
+          <h2 class="text-center text-dark" style="cursor: default">Tentang Kami</h2>
+          <p class="text-center" style="font-size: 18px">Kodya Coffee adalah coffee shop yang menghadirkan pengalaman minum kopi berkualitas tinggi dalam suasana yang nyaman dan hangat. Dengan biji kopi pilihan dari petani lokal dan racikan barista berpengalaman, Kodya Coffee menjadi tempat ideal untuk menikmati cita rasa autentik kopi Indonesia, baik untuk bersantai sendiri, bertemu teman, atau bekerja. Di sini, setiap cangkir memiliki cerita, dan setiap kunjungan memberikan kehangatan baru.</p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; height: 300px; padding-top: 100px">
+          <img src="assets/img/coffee.png" alt="Arabica Coffee" style="max-width: 100%; height: auto" />
+        </div>
+      </div>
+    </section>
+    <!-- end-about -->
+
+    <section id="highlight">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="gambar/americano.jpg" class="d-block w-100" alt="Americano" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="gambar/kopi-tarik.jpg" class="d-block w-100" alt="Latte" />
+          </div>
+          <div class="carousel-item">
+            <img src="gambar/capuccino.jpg" class="d-block w-100" alt="Cappuccino" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- promo -->
+    <section id="promo" style="padding: 5rem 0rem 5rem 0rem">
+      <div class="container-fluid">
+        <div class="container" style="border-radius: 30px">
+          <h2 class="text-center text-dark" style="cursor: default">Terlaris</h2>
+
+          <div class="row mt-5 justify-content-center">
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <img src="gambar/Arabica coffe.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="cursor: default">Kopi Arabica</h5>
+                  <p class="card-text" style="cursor: default">Kopi premium yang dikenal dengan rasa halus dan aroma yang kaya dan memiliki keasaman yang seimbang.</p>
+                  <a href="detail-coffee.html" style="text-decoration: none">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                      <button class="btn btn-secondary w-100" type="button">Detail</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <img src="gambar/coldbrewcoffe - Copy.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="cursor: default">Cold Brew</h5>
+                  <p class="card-text" style="cursor: default">Cold Brew adalah kopi yang diseduh dengan air dingin untuk rasa halus dan kurang asam.</p>
+                  <a href="detail-coffee.html" style="text-decoration: none">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                      <button class="btn btn-secondary w-100" type="button">Detail</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <img src="gambar/cuban expresso coffe - Copy.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="cursor: default">Cuban Espresso</h5>
+                  <p class="card-text" style="cursor: default">Cuban Espresso adalah kopi kuat dan pekat dengan rasa sedikit pahit dan manis dari gula yang dicampurkan.</p>
+                  <a href="detail-coffee.html" style="text-decoration: none">
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                      <button class="btn btn-secondary w-100" type="button">Detail</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end-promo -->
+
+    <!-- footer -->
+    <footer class="bg-light">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom Kiri -->
+          <div class="col-md-4 border-end">
+            <h5 class="fw-bold">kodyacoffee10@gmail.com</h5>
+            <p>Kodya Coffee - Hangatkan Harimu, Nikmati Setiap Cangkir.</p>
+          </div>
+
+          <!-- Kolom Tengah -->
+          <div class="col-md-4 border-end">
+            <address>
+              <p>Jl. Tukad Yeh Aya 30, Panjer, Denpasar Selatan, Kota Denpasar, Bali 80234</p>
+              <p>
+                +623121000733 <span class="text-muted">(Caffee)</span><br />
+                +6281394429393 <span class="text-muted">(Customer Service)</span>
+              </p>
+              <p>kodyacoffee10@gmail.com</p>
+            </address>
+            <p class="text-muted">© 2024 PT Kuliner Bersama</p>
+          </div>
+
+          <!-- Kolom Kanan -->
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark text-decoration-none">Instagram</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">LinkedIn</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">YouTube</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">TikTok</a></li>
+            </ul>
+            <a href="#" class="text-dark text-decoration-none d-block mt-3">Join our newsletter</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end-footer -->
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
